@@ -1,0 +1,31 @@
+#body-grid {
+  display: grid;
+  grid-template-areas:
+      'header'
+      'main'
+      'footer';
+  grid-template-rows: 1fr 2fr 1fr;
+}
+#nav-bar {
+  display: grid;
+  grid-template-areas: 'about store . gmail images other signin';
+  margin: 15px;
+}
+#about {
+  grid-area: about;
+}
+#store {
+  grid-area: store;
+}
+#gmail {
+  grid-area: gmail;
+}
+#images {
+  grid-area: images;
+}
+#other {
+  grid-area: other;
+}
+#signin {
+  grid-area: signin;
+}

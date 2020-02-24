@@ -2,21 +2,39 @@
 <html>
   <head>
     <title>Google</title>
+    <!-- Displays the Google icon on the browser header -->
+    <link rel="icon" type="images/png" href='https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png'>
+    <link rel='stylesheet' type='text/css' href='css/reset.css'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
   </head>
   <body>
-    <p>About</p>
-    <p>Store</p>
-    <p>Gmail</p>
-    <p>Images</p>
-    <p>Sign in</p>
-    <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' alt='Google logo'>
-    <p>Google Search</p>
-    <p>I'm Feeling Lucky</p>
-    <p>Advertising</p>
-    <p>Business</p>
-    <p>How Search works</p>
-    <p>Privacy</p>
-    <p>Terms</p>
-    <p>Settings</p>
+    <div id='body-grid'>
+      <header>
+        <nav id='nav-bar'>
+          <a id='about' href='https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header'>About</a>
+          <a id='store' href='https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US'>Store</a>
+          <a id='gmail' href='https://mail.google.com/mail/?tab=wm&ogbl'>Gmail</a>
+          <a id='images' href='https://www.google.com/imghp?hl=en&tab=wi&ogbl'>Images</a>
+          <a id='other' href='#'>Other</a>
+          <a id='signin' href='https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/'>Sign in</a>
+        </nav>
+      </header>
+
+      <main id='main'>
+        <img id='logo' src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        <input id='search-bar' type='text'>
+        <a id='search-button' href='search_results.html'>Google Search</a>
+        <a id='lucky-button' href='#'>I'm Feeling Lucky</a>
+      </main>
+
+      <footer>
+        <a id='advert' href='https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1'>Advertising</a>
+        <a id='business' href='https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1'>Business</a>
+        <a id='how' href='https://google.com/search/howsearchworks/?fg=1'>How Search works</a>
+        <a id='privacy' href='https://policies.google.com/privacy?fg=1'>Privacy</a>
+        <a id='terms' href='https://policies.google.com/terms?fg=1'>Terms</a>
+        <a id='settings' href='https://www.google.com/preferences?hl=en'>Settings</a>
+      </footer>
+    </div>
   </body>
 </html>
